@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio de Ignacio Díaz: desarrollo web y proyectos de programación.">
+    <meta name="theme-color" content="#0b0f19">
+    <title>Ignacio Díaz | Portafolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="code-background" aria-hidden="true">
+        <pre class="code-column code-column-one"><span class="code-purple">const</span> portfolio = {
+  <span class="code-cyan">name</span>: <span class="code-green">"Ignacio Díaz"</span>,
+  skills: [<span class="code-green">"HTML"</span>, <span class="code-green">"Python"</span>],
+  learning: <span class="code-purple">true</span>
+};
+<span class="code-purple">function</span> <span class="code-cyan">create</span>() {
+  <span class="code-purple">return</span> <span class="code-green">"ideas"</span>;
+}</pre>
+        <pre class="code-column code-column-two"><span class="code-purple">import</span> { creativity }
+  <span class="code-purple">from</span> <span class="code-green">"./mind.js"</span>;
+
+<span class="code-purple">const</span> design = {
+  accessible: <span class="code-cyan">true</span>,
+  responsive: <span class="code-cyan">true</span>
+};
+<span class="code-cyan">console</span>.log(design);</pre>
+        <pre class="code-column code-column-three"><span class="code-purple">while</span> (learning) {
+  build();
+  improve();
+  <span class="code-purple">if</span> (bug) {
+    debug();
+  }
+}
+<span class="code-purple">export default</span> growth;</pre>
+        <pre class="code-column code-column-four"><span class="code-purple">.future</span> {
+  <span class="code-cyan">display</span>: <span class="code-green">"creative"</span>;
+  <span class="code-cyan">ideas</span>: <span class="code-purple">infinite</span>;
+}
+
+<span class="code-purple">git</span> commit -m
+  <span class="code-green">"keep learning"</span></pre>
+    </div>
+    <header class="site-header">
+        <nav class="navigation container" aria-label="Navegación principal">
+            <a class="brand" href="#inicio" aria-label="Portafolio de Ignacio Díaz">Ignacio<span>.dev</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                <span class="menu-toggle-label">Menú</span>
+                <span class="menu-icon" aria-hidden="true">☰</span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a class="nav-contact" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section container" id="inicio">
+            <p class="eyebrow"><span class="status-dot"></span> Estudiante de programación · 4° Medio TP</p>
+            <h1>Hola, soy <span>Ignacio Díaz</span>.</h1>
+            <p class="hero-copy">
+                Me interesa crear sitios y aplicaciones útiles, con código claro y una experiencia sencilla
+                para las personas.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" href="#proyectos">Ver mis proyectos</a>
+                <a class="button button-secondary" href="#contacto">Hablemos</a>
+            </div>
+        </section>
+
+        <section class="section container reveal" id="sobre-mi">
+            <div class="section-heading">
+                <p class="eyebrow">Presentación</p>
+                <h2>Sobre mí</h2>
+            </div>
+            <div class="about-card">
+                <p>
+                    Soy estudiante de la especialidad de Programación y estoy aprendiendo a desarrollar
+                    soluciones web de principio a fin. Me gusta trabajar con JavaScript, diseñar interfaces
+                    accesibles y organizar el código para que sea fácil de mantener.
+                </p>
+                <p>
+                    En mis proyectos practico desarrollo frontend, creación de API y manejo de bases de datos.
+                    Este portafolio reúne algunos ejemplos de ese aprendizaje.
+                </p>
+            </div>
+        </section>
+
+        <section class="section container reveal" id="habilidades">
+            <div class="section-heading">
+                <p class="eyebrow">Tecnologías</p>
+                <h2>Habilidades</h2>
+            </div>
+            <ul class="skill-list" aria-label="Tecnologías y herramientas">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (JS)</li>
+                <li>Python</li>
+                <li>SQL Workbench</li>
+            </ul>
+        </section>
+
+        <section class="section container reveal" id="proyectos">
+            <div class="section-heading">
+                <p class="eyebrow">Trabajo seleccionado</p>
+                <h2>Proyectos</h2>
+                <p class="section-description">Ejemplos de proyectos para practicar distintas áreas del desarrollo.</p>
+            </div>
+            <div class="project-filters" role="group" aria-label="Filtrar proyectos">
+                <button class="filter-button is-active" type="button" data-filter="todos"
+                    aria-pressed="true">Todos</button>
+                <button class="filter-button" type="button" data-filter="frontend"
+                    aria-pressed="false">Frontend</button>
+                <button class="filter-button" type="button" data-filter="backend" aria-pressed="false">Backend</button>
+                <button class="filter-button" type="button" data-filter="fullstack" aria-pressed="false">Full
+                    Stack</button>
+            </div>
+            <div class="project-grid">
+                <article class="project-card" data-category="fullstack">
+                    <p class="project-type">Full Stack</p>
+                    <h3>Sistema de gestión escolar</h3>
+                    <p>Aplicación de práctica para organizar información escolar con una API y una base de datos.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                        <li>HTML</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="backend">
+                    <p class="project-type">Backend</p>
+                    <h3>API de estudiantes</h3>
+                    <p>API REST de ejemplo con rutas para consultar y gestionar registros de estudiantes.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Frontend</p>
+                    <h3>Portafolio adaptable</h3>
+                    <p>Sitio personal con diseño adaptable, navegación accesible y filtros para proyectos.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Idea de proyecto · Frontend</p>
+                    <h3>Organizador de tareas</h3>
+                    <p>
+                        Aplicación imaginaria para crear tareas, marcarlas como completadas y organizarlas
+                        por prioridad desde una interfaz adaptable.
+                    </p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="fullstack">
+                    <p class="project-type">Idea de proyecto · Full Stack</p>
+                    <h3>Registro de hábitos</h3>
+                    <p>
+                        Proyecto imaginario para registrar hábitos diarios en una página web y procesar
+                        la información con un servicio desarrollado en Python.
+                    </p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Idea de proyecto · Frontend</p>
+                    <h3>Biblioteca personal</h3>
+                    <p>Catálogo visual para guardar libros favoritos, buscar títulos y filtrar por género.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Idea de proyecto · Frontend</p>
+                    <h3>Calculadora de gastos</h3>
+                    <p>Interfaz para anotar gastos del mes, clasificarlos y mostrar un resumen del presupuesto.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Idea de proyecto · Frontend</p>
+                    <h3>Quiz de programación</h3>
+                    <p>Juego de preguntas con puntaje, respuestas interactivas y resultados al finalizar.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="fullstack">
+                    <p class="project-type">Idea de proyecto · Full Stack</p>
+                    <h3>Inventario de emprendimiento</h3>
+                    <p>Propuesta para registrar artículos, actualizar existencias y consultar datos guardados.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="fullstack">
+                    <p class="project-type">Idea de proyecto · Full Stack</p>
+                    <h3>Agenda de estudio</h3>
+                    <p>Planificador para organizar asignaturas, fechas de evaluación y sesiones de estudio.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="backend">
+                    <p class="project-type">Idea de proyecto · Backend</p>
+                    <h3>Gestor de notas</h3>
+                    <p>Servicio de práctica para guardar notas por asignatura y calcular promedios.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Idea de proyecto · Frontend</p>
+                    <h3>Galería de fotografía</h3>
+                    <p>Portafolio visual adaptable con categorías y una vista ampliada para cada imagen.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="fullstack">
+                    <p class="project-type">Idea de proyecto · Full Stack</p>
+                    <h3>Directorio de contactos</h3>
+                    <p>Agenda digital para crear, buscar y organizar contactos con datos almacenados.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="frontend">
+                    <p class="project-type">Idea de proyecto · Frontend</p>
+                    <h3>Temporizador de concentración</h3>
+                    <p>Reloj de estudio con pausas configurables e indicador de cada sesión.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="project-card" data-category="fullstack">
+                    <p class="project-type">Idea de proyecto · Full Stack</p>
+                    <h3>Panel de asistencia</h3>
+                    <p>Propuesta de panel para registrar asistencia y revisar resúmenes por curso y fecha.</p>
+                    <ul class="tag-list" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL Workbench</li>
+                    </ul>
+                </article>
+            </div>
+            <p class="empty-state" hidden>No hay proyectos en esta categoría.</p>
+        </section>
+
+        <section class="section container contact-section reveal" id="contacto">
+            <div class="section-heading">
+                <p class="eyebrow">Contacto</p>
+                <h2>¿Conversamos?</h2>
+                <p class="section-description">
+                    Si quieres conocer más sobre mis proyectos, puedes escribirme por correo.
+                </p>
+            </div>
+            <a class="button button-primary" href="mailto:ignaciodiaz@liceovvh.cl">Enviar un correo</a>
+            <p class="contact-note">Se abrirá tu aplicación de correo para escribir a ignaciodiaz@liceovvh.cl.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>Portafolio de desarrollo web</p>
+            <a href="#inicio">Volver arriba ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
